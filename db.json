@@ -1,81 +1,114 @@
-[
-  {
-    "id": 1,
-    "name": "John Doe",
-    "imgSrc": "https://assets.capitalfm.com/2022/43/ed-sheeran--1666953393-editorial-short-form-0.jpg",
-    "genre": "Pop",
-    "country": "USA",
-    "age": 30,
-    "info": "A popular artist known for his amazing pop music.",
-    "isVerified": true,
-    "songs": []
-  },
-  {
-    "id": 2,
-    "name": "Jane Smith",
-    "imgSrc": "https://media.istockphoto.com/id/994318634/photo/young-hipster-african-american-rapper-recording-songs-in-music-recording-studio.jpg?s=612x612&w=0&k=20&c=A2iXa5XXStfOQ9477mTTjMc6ml6cCkrPn4Kr9oqECg8=",
-    "genre": "Rock",
-    "country": "UK",
-    "age": 27,
-    "info": "An emerging rock artist from the UK.",
-    "isVerified": false,
-    "songs": [
-      "Song 1",
-      "Song 2"
-    ]
-  },
-  {
-    "id": 3,
-    "name": "Mike Brown",
-    "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPXnGnR97InAAYpw_C0rb8lmYY2_CsaX5iyw&s",
-    "genre": "Jazz",
-    "country": "Canada",
-    "age": 35,
-    "info": "A Jazz musician with years of experience.",
-    "isVerified": true,
-    "songs": [
-      "Jazz Tune 1"
-    ]
-  },
-  {
-    "id": 4,
-    "name": "Lisa White",
-    "imgSrc": "https://www.bmi.com/images/news/2019/_770/iStock-1128240580.jpg",
-    "genre": "Classical",
-    "country": "Germany",
-    "age": 40,
-    "info": "Renowned for her classical compositions.",
-    "isVerified": true,
-    "songs": [
-      "Symphony 1",
-      "Concerto 2"
-    ]
-  },
-  {
-    "id": 5,
-    "name": "Tom Green",
-    "imgSrc": "https://i.insider.com/5b3f9d797708e91fe73121f9?width=600&format=jpeg&auto=webp",
-    "genre": "EDM",
-    "country": "Australia",
-    "age": 24,
-    "info": "Young EDM artist gaining rapid popularity.",
-    "isVerified": false,
-    "songs": [
-      "EDM Track 1",
-      "EDM Track 2"
-    ]
-  },
-  {
-    "id": 6,
-    "name": "Emily Black",
-    "imgSrc": "https://studybritannia.com/wp-content/uploads/2021/02/Most-Inspirational-Music-Artists-of-all-Time-e1615564140616.png",
-    "genre": "Blues",
-    "country": "USA",
-    "age": 32,
-    "info": "Known for soulful Blues music.",
-    "isVerified": true,
-    "songs": [
-      "Blues Song 1"
-    ]
-  }
-]
+{
+  "movies": [
+    {
+      "id": "1",
+      "title": "Titanic",
+      "genre": "romantic",
+      "releaseYear": 1997,
+      "poster": "https://i.ebayimg.com/images/g/3QgAAOSwUnJiTBar/s-1400.jpg",
+      "desc": "A love story unfolds on the ill-fated Titanic ship.",
+      "cast": [
+        {
+          "id": 1714630921412,
+          "fullName": "Leonardo DiCaprio",
+          "age": "40",
+          "country": "USA"
+        },
+        {
+          "id": 1714630921413,
+          "fullName": "Kate Winslet",
+          "age": "38",
+          "country": "UK"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Inception",
+      "genre": "sci-fi",
+      "releaseYear": 2010,
+      "poster": "https://example.com/inception.jpg",
+      "desc": "A thief enters dreams to steal secrets from people's subconscious.",
+      "cast": [
+        {
+          "id": 1714630921414,
+          "fullName": "Leonardo DiCaprio",
+          "age": "40",
+          "country": "USA"
+        },
+        {
+          "id": 1714630921415,
+          "fullName": "Joseph Gordon-Levitt",
+          "age": "39",
+          "country": "USA"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "The Dark Knight",
+      "genre": "action",
+      "releaseYear": 2008,
+      "poster": "https://example.com/dark-knight.jpg",
+      "desc": "Batman faces the Joker in Gotham City.",
+      "cast": [
+        {
+          "id": 1714630921416,
+          "fullName": "Christian Bale",
+          "age": "45",
+          "country": "UK"
+        },
+        {
+          "id": 1714630921417,
+          "fullName": "Heath Ledger",
+          "age": "28",
+          "country": "Australia"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Interstellar",
+      "genre": "sci-fi",
+      "releaseYear": 2014,
+      "poster": "https://example.com/interstellar.jpg",
+      "desc": "A team of explorers travels through a wormhole in space.",
+      "cast": [
+        {
+          "id": 1714630921418,
+          "fullName": "Matthew McConaughey",
+          "age": "50",
+          "country": "USA"
+        },
+        {
+          "id": 1714630921419,
+          "fullName": "Anne Hathaway",
+          "age": "38",
+          "country": "USA"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Avatar",
+      "genre": "fantasy",
+      "releaseYear": 2009,
+      "poster": "https://example.com/avatar.jpg",
+      "desc": "Humans attempt to colonize Pandora, a lush alien world.",
+      "cast": [
+        {
+          "id": 1714630921420,
+          "fullName": "Sam Worthington",
+          "age": "42",
+          "country": "Australia"
+        },
+        {
+          "id": 1714630921421,
+          "fullName": "Zoe Saldana",
+          "age": "41",
+          "country": "USA"
+        }
+      ]
+    }
+  ]
+}
